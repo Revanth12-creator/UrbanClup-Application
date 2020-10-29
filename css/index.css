@@ -1,0 +1,254 @@
+@import url(../fonts/fontawesome/fontawesome-free-5.12.1-web/css/all.css);
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', ;
+    font-family: axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+
+
+}
+#headerBlock{
+      background:white;
+      padding: 8px;
+      height: 45px;
+}
+.leftBlock{
+    float: left;
+    width: 70%;
+}
+.rightBlock{
+    float: left;
+    width: 30%;
+    text-align: right;
+    line-height: 40px;
+}
+#headerBlock article{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 290px;
+}
+.leftmenu ul,.rightBlock ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.leftmenu ul li a,.rightBlock ul li a{
+    color: #666;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    
+}
+.leftmenu ul li{
+    display:inline-block ;
+}
+.logo{
+    width: 40%;
+    float: left;
+}
+.leftmenu{
+    width: 60%;
+    float: left;
+    line-height: 40px;
+}
+#sliderBlock{
+    background-color: red;
+    background: url(../images/bg1.jpg);
+    height: 425px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sliderBlock h1{
+    margin: 0;
+    font-size: 50px;
+    color:#fff;
+    font-weight: bold;
+
+}
+#sliderBlock article{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+#sliderBlock p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+#sliderBlock form select{
+    padding: 15px;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 30px;
+}
+
+#sliderBlock form  input{
+    padding: 15px;
+    width: 400px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 30px;
+}
+.overlay{
+    background: rgba(77, 77,77, 0.5);
+}
+#afterslider{
+    background-color: #eee;
+    
+}
+#afterslider article{
+    background-color:#666;
+    width: 1200px;
+    margin: 0 auto;
+}
+#afterslider article div{
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding: 40px 10px;
+}
+#afterslider article div h2{
+    font-size: 15px;
+    color:#666;
+}
+#afterslider article div span i{
+    font-size: 40px;
+    color: #666;
+}
+#servicesBlock,#wedding,#fitness,#message{
+    background-color: #fff;
+    clear: both;
+    height: 200px;
+    padding: 30px;
+}
+#servicesBlock article,#wedding article,#fitness article,#message article{
+    width:1200px ;
+    margin: 0 auto;
+}
+#servicesBlock article div,#wedding article div,#fitness article div,#message article div{
+    float: left;
+    width: 25%;
+    text-align: right;
+}
+#servicesBlock article img,#wedding article img,#fitness article img,#message article img{
+    width: 280px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#servicesBlock article footer h3,#wedding article footer h3,#fitness article footer h3,#message article footer h3{
+   text-align: center;  
+}
+#appsection{
+    clear: both;
+    background-color: #fff;
+}
+
+#appsection article{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+#appsection article .appleft
+{
+width: 40%;
+float: left;
+text-align: center;
+}
+#appsection article .appright{
+    text-align: left;
+    width: 60%;
+    float: left;
+}
+.appleft img{
+   width: 220px;
+}
+.appright h1{
+    font-size: 30px;
+    padding: 10px;
+    margin: 40px 0 0;
+}
+.appright p{
+    color: #666;
+}
+.appright form select{
+    padding: 15px 25px;
+    border: none;
+    width: 150px;
+    
+    
+}
+.appright form input{
+    padding: 15px;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.appright form button{
+    background-color: #111111;
+    border-radius: 5px;
+    color: white;
+    padding: 13px 30px ;
+    border: none;
+    position: static;
+    right: 167px;
+   top: 69px;
+}
+.appright form{
+    position: relative;
+    
+}
+
+.appright img{
+    width: 40px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    
+}
+.appright select{
+    width: 120px;
+    
+}
+
+#block1  article .div1,#block1  article .div2,#block1  article .div3{
+    
+    width: 500px;
+    float: left;
+    height: 50% ;
+}
+#block1  article .para1 h3,
+#block1  article .para1 p{
+   
+    text-align: right;
+}
+#block1  article .para3 h3,
+#block1  article .para3 p{
+   
+    text-align: left;
+}
+#block1  article .para2 h3,
+#block1  article .para2 p{
+    
+    text-align: center;
+}
+
+#block1  article .icon1{
+    
+    text-align: left;
+}
+
+#block1  article .div1,
+#block1  article .icon1{
+    
+    text-align:unset;
+}
